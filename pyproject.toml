@@ -1,0 +1,44 @@
+[build-system]
+requires = ["scikit-build-core>=0.10", "pybind11>=2.13"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pyatm"
+dynamic = ["version"]
+description = "Python bindings (and C++ headers/library) of the ALMA Atmospheric Transmission at Microwaves (ATM) model"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+classifiers = [
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "cmake"]
+notebooks = ["matplotlib", "jupyter", "nbconvert"]
+
+[project.scripts]
+pyatm-config = "pyatm.config:main"
+
+[tool.scikit-build]
+minimum-version = "build-system.requires"
+wheel.packages = ["src/pyatm"]
+build-dir = "build/{wheel_tag}"
+sdist.exclude = [".venv", "build"]
+
+[tool.scikit-build.cmake.define]
+# C++ namespace of the ATM library: "telcal" (telcal::atm, as TelCal) or "atm" (as CASA).
+# Override with: pip install . -C cmake.define.PYATM_NAMESPACE=atm
+PYATM_NAMESPACE = { env = "PYATM_NAMESPACE", default = "telcal" }
+
+[tool.scikit-build.metadata.version]
+provider = "scikit_build_core.metadata.regex"
+input = "cpp/ATM/ATM_VERSION"
+regex = '^(?P<value>\d+\.\d+\.\d+)'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

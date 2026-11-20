@@ -1,0 +1,21 @@
+1 - start setting quantities
+1 - end setting quantities
+1 - Testing aatm version: 
+1 -  aatm library version: x.y.z
+1 -  aatm header version: x.y.z
+1 - Version matches OK!
+1 - Start creating atm profile
+1 - Finish creating atm profile
+1 - BASIC ATMOSPHERIC PARAMETERS TO GENERATE REFERENCE ATMOSPHERIC PROFILE
+1 -   
+1 - Ground temperature T:         269 K
+1 - Ground pressure P:            554.5 mb
+1 - Relative humidity rh:         7 %
+1 - Scale height h0:              2 km
+1 - Pressure step dp:             10 mb
+1 - Altitude alti:                5059 m
+1 - Attitude top atm profile atmh:48 km
+1 - Pressure step factordp1:      1.2 
+1 - Tropospheric lapse rate:    -5.6 K/km
+1 - Atmosphere Type:    MIDLATWINTER
+1 - Number of layers created: 27

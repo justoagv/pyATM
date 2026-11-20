@@ -1,0 +1,9 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: pyatm
+Description: ALMA Atmospheric Transmission at Microwaves (ATM) C++ library shipped with pyatm (namespace @PYATM_CXX_NAMESPACE@)
+Version: @PROJECT_VERSION@
+Cflags: -I${includedir} @PYATM_CFLAGS_NAMESPACE@
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lATM

@@ -1,0 +1,6 @@
+@PACKAGE_INIT@
+
+# pyatm::ATM imported target (ATM C++ library shipped with the pyatm Python package)
+set(pyatm_CXX_NAMESPACE "@PYATM_CXX_NAMESPACE@")
+include("${CMAKE_CURRENT_LIST_DIR}/pyatmTargets.cmake")
+check_required_components(pyatm)

@@ -1,0 +1,104 @@
+1 -  AtmProfileTest: BASIC ATMOSPHERIC PARAMETERS TO GENERATE REFERENCE ATMOSPHERIC PROFILE
+1 -  AtmProfileTest:   
+1 -  AtmProfileTest: Ground temperature T:         270 K
+1 -  AtmProfileTest: Ground pressure P:            560 mb
+1 -  AtmProfileTest: Relative humidity rh:         20 %
+1 -  AtmProfileTest: Scale height h0:              2 km
+1 -  AtmProfileTest: Pressure step dp:             5 mb
+1 -  AtmProfileTest: Altitude alti:                5000 m
+1 -  AtmProfileTest: Attitude top atm profile atmh:48 km
+1 -  AtmProfileTest: Pressure step factordp1:      1.1 
+1 -  AtmProfileTest: Tropospheric lapse rate:    -5.6 K/km
+1 -  AtmProfileTest: Atmospheric type:             TROPICAL
+1 -  AtmProfileTest:   
+1 -  AtmProfileTest:   
+1 -  AtmProfileTest: Object myProfile built with the AtmProfile CONSTRUCTOR and the above entries
+1 -   
+1 -  AtmProfileTest: Number of layers returned:  35
+1 -  AtmProfileTest: Layer parameters:  
+1 -  AtmProfileTest:  P: 557.494 mb  T: 269.8 K  Thickness: 71.3989 m  WaterVapor: 0.000776051 kg m-3  WaterVapor: 2.59675e+22 m-3  CO: 1.94603e+18 m-3  O3: 3.66464e+17 m-3  N2O: 4.77952e+18 m-3
+1 -  AtmProfileTest:  P: 552.306 mb  T: 269.384 K  Thickness: 77.3618 m  WaterVapor: 0.00074772 kg m-3  WaterVapor: 2.50195e+22 m-3  CO: 1.93099e+18 m-3  O3: 3.65269e+17 m-3  N2O: 4.74365e+18 m-3
+1 -  AtmProfileTest:  P: 546.728 mb  T: 268.932 K  Thickness: 83.8794 m  WaterVapor: 0.000718179 kg m-3  WaterVapor: 2.40311e+22 m-3  CO: 1.91456e+18 m-3  O3: 3.6397e+17 m-3  N2O: 4.70499e+18 m-3
+1 -  AtmProfileTest:  P: 540.732 mb  T: 268.442 K  Thickness: 91.0134 m  WaterVapor: 0.000687454 kg m-3  WaterVapor: 2.3003e+22 m-3  CO: 1.89657e+18 m-3  O3: 3.62559e+17 m-3  N2O: 4.66332e+18 m-3
+1 -  AtmProfileTest:  P: 534.286 mb  T: 267.911 K  Thickness: 98.8347 m  WaterVapor: 0.000655588 kg m-3  WaterVapor: 2.19367e+22 m-3  CO: 1.87686e+18 m-3  O3: 3.61024e+17 m-3  N2O: 4.61838e+18 m-3
+1 -  AtmProfileTest:  P: 527.357 mb  T: 267.333 K  Thickness: 107.424 m  WaterVapor: 0.00062264 kg m-3  WaterVapor: 2.08342e+22 m-3  CO: 1.85525e+18 m-3  O3: 3.59353e+17 m-3  N2O: 4.56993e+18 m-3
+1 -  AtmProfileTest:  P: 519.907 mb  T: 266.705 K  Thickness: 116.876 m  WaterVapor: 0.000588686 kg m-3  WaterVapor: 1.96981e+22 m-3  CO: 1.83152e+18 m-3  O3: 3.57531e+17 m-3  N2O: 4.51766e+18 m-3
+1 -  AtmProfileTest:  P: 511.899 mb  T: 266.022 K  Thickness: 127.299 m  WaterVapor: 0.000553825 kg m-3  WaterVapor: 1.85316e+22 m-3  CO: 1.80544e+18 m-3  O3: 3.55544e+17 m-3  N2O: 4.46126e+18 m-3
+1 -  AtmProfileTest:  P: 503.29 mb  T: 265.276 K  Thickness: 138.821 m  WaterVapor: 0.000518178 kg m-3  WaterVapor: 1.73388e+22 m-3  CO: 1.77675e+18 m-3  O3: 3.53373e+17 m-3  N2O: 4.40039e+18 m-3
+1 -  AtmProfileTest:  P: 494.034 mb  T: 264.463 K  Thickness: 151.589 m  WaterVapor: 0.00048189 kg m-3  WaterVapor: 1.61246e+22 m-3  CO: 1.74514e+18 m-3  O3: 3.50998e+17 m-3  N2O: 4.33468e+18 m-3
+1 -  AtmProfileTest:  P: 484.085 mb  T: 263.575 K  Thickness: 165.782 m  WaterVapor: 0.000445133 kg m-3  WaterVapor: 1.48947e+22 m-3  CO: 1.70977e+18 m-3  O3: 3.48369e+17 m-3  N2O: 4.26351e+18 m-3
+1 -  AtmProfileTest:  P: 473.388 mb  T: 262.602 K  Thickness: 181.611 m  WaterVapor: 0.000408105 kg m-3  WaterVapor: 1.36557e+22 m-3  CO: 1.67092e+18 m-3  O3: 3.45494e+17 m-3  N2O: 4.18671e+18 m-3
+1 -  AtmProfileTest:  P: 461.889 mb  T: 261.535 K  Thickness: 199.329 m  WaterVapor: 0.000371033 kg m-3  WaterVapor: 1.24152e+22 m-3  CO: 1.62825e+18 m-3  O3: 3.4235e+17 m-3  N2O: 4.10381e+18 m-3
+1 -  AtmProfileTest:  P: 449.526 mb  T: 260.363 K  Thickness: 219.246 m  WaterVapor: 0.000334169 kg m-3  WaterVapor: 1.11817e+22 m-3  CO: 1.58134e+18 m-3  O3: 3.38907e+17 m-3  N2O: 4.01433e+18 m-3
+1 -  AtmProfileTest:  P: 436.235 mb  T: 259.073 K  Thickness: 241.743 m  WaterVapor: 0.000297793 kg m-3  WaterVapor: 9.96449e+21 m-3  CO: 1.52973e+18 m-3  O3: 3.3513e+17 m-3  N2O: 3.91773e+18 m-3
+1 -  AtmProfileTest:  P: 421.946 mb  T: 257.647 K  Thickness: 267.291 m  WaterVapor: 0.000262209 kg m-3  WaterVapor: 8.7738e+21 m-3  CO: 1.47418e+18 m-3  O3: 3.29406e+17 m-3  N2O: 3.81526e+18 m-3
+1 -  AtmProfileTest:  P: 406.584 mb  T: 256.069 K  Thickness: 296.488 m  WaterVapor: 0.000227738 kg m-3  WaterVapor: 7.62037e+21 m-3  CO: 1.41216e+18 m-3  O3: 3.24088e+17 m-3  N2O: 3.70359e+18 m-3
+1 -  AtmProfileTest:  P: 390.068 mb  T: 254.314 K  Thickness: 330.099 m  WaterVapor: 0.000194717 kg m-3  WaterVapor: 6.51546e+21 m-3  CO: 1.34231e+18 m-3  O3: 3.19958e+17 m-3  N2O: 3.581e+18 m-3
+1 -  AtmProfileTest:  P: 372.31 mb  T: 252.356 K  Thickness: 369.119 m  WaterVapor: 0.000163489 kg m-3  WaterVapor: 5.47052e+21 m-3  CO: 1.26165e+18 m-3  O3: 3.18201e+17 m-3  N2O: 3.44554e+18 m-3
+1 -  AtmProfileTest:  P: 353.217 mb  T: 250.161 K  Thickness: 414.876 m  WaterVapor: 0.00013439 kg m-3  WaterVapor: 4.49684e+21 m-3  CO: 1.17115e+18 m-3  O3: 3.18165e+17 m-3  N2O: 3.29628e+18 m-3
+1 -  AtmProfileTest:  P: 332.688 mb  T: 247.686 K  Thickness: 469.178 m  WaterVapor: 0.000107741 kg m-3  WaterVapor: 3.60514e+21 m-3  CO: 1.07418e+18 m-3  O3: 3.18143e+17 m-3  N2O: 3.13314e+18 m-3
+1 -  AtmProfileTest:  P: 310.612 mb  T: 244.875 K  Thickness: 534.562 m  WaterVapor: 8.38305e-05 kg m-3  WaterVapor: 2.80506e+21 m-3  CO: 9.70537e+17 m-3  O3: 3.15625e+17 m-3  N2O: 2.95806e+18 m-3
+1 -  AtmProfileTest:  P: 286.87 mb  T: 241.657 K  Thickness: 614.706 m  WaterVapor: 6.28959e-05 kg m-3  WaterVapor: 2.10457e+21 m-3  CO: 8.60299e+17 m-3  O3: 3.19078e+17 m-3  N2O: 2.75911e+18 m-3
+1 -  AtmProfileTest:  P: 261.335 mb  T: 237.934 K  Thickness: 715.17 m  WaterVapor: 4.51058e-05 kg m-3  WaterVapor: 1.50929e+21 m-3  CO: 7.43508e+17 m-3  O3: 3.29896e+17 m-3  N2O: 2.5323e+18 m-3
+1 -  AtmProfileTest:  P: 233.863 mb  T: 233.566 K  Thickness: 844.81 m  WaterVapor: 3.05394e-05 kg m-3  WaterVapor: 1.02188e+21 m-3  CO: 6.17079e+17 m-3  O3: 3.42454e+17 m-3  N2O: 2.2852e+18 m-3
+1 -  AtmProfileTest:  P: 204.297 mb  T: 228.348 K  Thickness: 1018.71 m  WaterVapor: 1.9166e-05 kg m-3  WaterVapor: 6.41315e+20 m-3  CO: 4.68179e+17 m-3  O3: 3.60345e+17 m-3  N2O: 2.00703e+18 m-3
+1 -  AtmProfileTest:  P: 172.453 mb  T: 221.954 K  Thickness: 1264.99 m  WaterVapor: 1.08288e-05 kg m-3  WaterVapor: 3.62345e+20 m-3  CO: 3.15199e+17 m-3  O3: 3.64367e+17 m-3  N2O: 1.71233e+18 m-3
+1 -  AtmProfileTest:  P: 145.726 mb  T: 211.506 K  Thickness: 948.989 m  WaterVapor: 6.22589e-06 kg m-3  WaterVapor: 2.08325e+20 m-3  CO: 2.08753e+17 m-3  O3: 3.80317e+17 m-3  N2O: 1.45248e+18 m-3
+1 -  AtmProfileTest:  P: 114.088 mb  T: 199.85 K  Thickness: 2000 m  WaterVapor: 2.97865e-06 kg m-3  WaterVapor: 9.96688e+19 m-3  CO: 1.1852e+17 m-3  O3: 3.93168e+17 m-3  N2O: 1.14189e+18 m-3
+1 -  AtmProfileTest:  P: 81.0467 mb  T: 198.6 K  Thickness: 3750 m  WaterVapor: 7.07491e-07 kg m-3  WaterVapor: 2.36734e+19 m-3  CO: 3.64027e+16 m-3  O3: 1.48696e+18 m-3  N2O: 5.96361e+17 m-3
+1 -  AtmProfileTest:  P: 50.4577 mb  T: 209.05 K  Thickness: 4000 m  WaterVapor: 1.01924e-07 kg m-3  WaterVapor: 3.41048e+18 m-3  CO: 1.54187e+16 m-3  O3: 2.55661e+18 m-3  N2O: 2.3429e+17 m-3
+1 -  AtmProfileTest:  P: 27.4549 mb  T: 220.5 K  Thickness: 4000 m  WaterVapor: 1.37939e-08 kg m-3  WaterVapor: 4.61558e+17 m-3  CO: 1.03395e+16 m-3  O3: 3.89957e+18 m-3  N2O: 1.009e+17 m-3
+1 -  AtmProfileTest:  P: 15.0592 mb  T: 229.3 K  Thickness: 4250 m  WaterVapor: 1.75369e-09 kg m-3  WaterVapor: 5.86805e+16 m-3  CO: 6.88407e+15 m-3  O3: 2.69289e+18 m-3  N2O: 1.06705e+17 m-3
+1 -  AtmProfileTest:  P: 8.2977 mb  T: 238.2 K  Thickness: 6000 m  WaterVapor: 1.3523e-10 kg m-3  WaterVapor: 4.52496e+15 m-3  CO: 3.92089e+15 m-3  O3: 1.90711e+18 m-3  N2O: 1.82245e+16 m-3
+1 -  AtmProfileTest:  P: 4.09633 mb  T: 249.3 K  Thickness: 6000 m  WaterVapor: 1.3523e-10 kg m-3  WaterVapor: 4.52496e+15 m-3  CO: 2.22507e+15 m-3  O3: 6.29932e+17 m-3  N2O: 2.85798e+15 m-3
+1 - # altitude [km]	o3 [cm**-3]	n2 [cm**-3]	co [cm**-3]	no2 [cm**-3]	so2 [cm**-3]
+1 - 0	7.02905e+11	7.84e+12	3.675e+12	5.635e+08	7.35e+09	
+1 - 1	7.02765e+11	7.1392e+12	3.23495e+12	5.1313e+08	6.11294e+09	
+1 - 2	6.77758e+11	6.4896e+12	2.83717e+12	4.6644e+08	4.78608e+09	
+1 - 3	6.40181e+11	5.8464e+12	2.46462e+12	4.2021e+08	3.4713e+09	
+1 - 4	5.89702e+11	5.2992e+12	2.17267e+12	3.8088e+08	2.41776e+09	
+1 - 5	5.64673e+11	4.7968e+12	1.9532e+12	3.4477e+08	1.76882e+09	
+1 - 6	5.39712e+11	4.3296e+12	1.74266e+12	3.1119e+08	1.31376e+09	
+1 - 7	5.14361e+11	3.8976e+12	1.51885e+12	2.8014e+08	1.01094e+09	
+1 - 8	4.89574e+11	3.504e+12	1.29757e+12	2.5185e+08	7.89495e+08	
+1 - 9	4.8945e+11	3.12759e+12	1.07092e+12	2.27105e+08	6.42158e+08	
+1 - 10	4.89395e+11	2.78067e+12	8.71376e+11	2.08179e+08	5.31818e+08	
+1 - 11	5.14491e+11	2.44292e+12	6.97399e+11	2.03836e+08	4.50462e+08	
+1 - 12	5.39548e+11	2.13679e+12	5.39479e+11	2.17476e+08	3.86624e+08	
+1 - 13	5.64678e+11	1.85288e+12	3.87475e+11	2.70516e+08	3.39816e+08	
+1 - 14	5.64585e+11	1.61256e+12	2.70194e+11	4.022e+08	3.03263e+08	
+1 - 15	5.89943e+11	1.3828e+12	1.85109e+11	8.03187e+08	2.70077e+08	
+1 - 16	5.8973e+11	1.17497e+12	1.25338e+11	1.3028e+09	2.3483e+08	
+1 - 17	8.715e+11	9.70154e+11	8.67665e+10	1.80923e+09	1.87198e+08	
+1 - 18	1.4385e+12	7.68447e+11	5.65618e+10	2.21817e+09	1.37521e+08	
+1 - 19	2.26195e+12	6.01679e+11	3.68817e+10	2.52386e+09	9.45257e+07	
+1 - 20	2.7734e+12	4.68506e+11	2.63671e+10	2.75359e+09	6.31939e+07	
+1 - 21	2.9718e+12	3.62229e+11	2.03403e+10	2.90576e+09	4.40817e+07	
+1 - 22	3.3144e+12	2.83243e+11	1.70139e+10	2.98296e+09	3.14868e+07	
+1 - 23	3.9746e+12	2.29942e+11	1.52788e+10	3.01602e+09	2.41983e+07	
+1 - 24	4.2656e+12	1.86e+11	1.3888e+10	3.03552e+09	1.8848e+07	
+1 - 25	4.54302e+12	1.47732e+11	1.27962e+10	3.14646e+09	1.47227e+07	
+1 - 27.5	4.39062e+12	8.93885e+10	9.69314e+09	2.70755e+09	8.66866e+06	
+1 - 30	3.54051e+12	5.39071e+10	7.59497e+09	2.34511e+09	5.10138e+06	
+1 - 32.5	2.55903e+12	7.56668e+10	5.88707e+09	1.87316e+09	3.14358e+06	
+1 - 35	1.73533e+12	4.14824e+10	4.44924e+09	1.30239e+09	2.07524e+06	
+1 - 37.5	1.09384e+12	1.24791e+10	3.40333e+09	7.78118e+08	1.50403e+06	
+1 - 40	6.52725e+11	5.8915e+09	2.69619e+09	3.50731e+08	1.18361e+06	
+1 - 42.5	3.62673e+11	2.53656e+09	2.1576e+09	1.3339e+08	1.01426e+06	
+1 - 45	1.9584e+11	1.0386e+09	1.73514e+09	5.0048e+07	913920	
+1 - 47.5	1.07606e+11	4.3875e+08	1.39794e+09	2.07725e+07	863963	
+1 - 50	6.4148e+10	1.63302e+08	1.16658e+09	1.01491e+07	815596	
+1 - 55	2.259e+10	5.6475e+07	7.51117e+08	4.25445e+06	576045	
+1 - 60	7.5284e+09	2.11993e+07	4.76342e+08	1.95054e+06	352466	
+1 - 65	2.4154e+09	8.40002e+06	3.41426e+08	940148	189888	
+1 - 70	5.76e+08	3.30912e+06	3.72096e+08	443520	82944	
+1 - 75	1.68084e+08	1.24522e+06	5.31145e+08	200767	26426.5	
+1 - 80	1.42362e+08	456594	6.68239e+08	87142.8	5737.62	
+1 - 85	9.005e+07	154418	6.93205e+08	34579.2	1001.36	
+1 - 90	3.66236e+07	49737.7	4.64134e+08	12888.7	157.763	
+1 - 95	1.353e+07	15960	2.82506e+08	4762.56	24.2458	
+1 - 100	4.392e+06	5472.98	1.87209e+08	1866.6	3.93084	
+1 - 105	889000	1891.57	1.09836e+08	728.98	0.635635	
+1 - 110	97050	711.279	6.51788e+07	308.619	0.111219	
+1 - 115	4353	276.851	3.61125e+07	134.943	0.0199367	
+1 - 120	0	0	0	0	0	

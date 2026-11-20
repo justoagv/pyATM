@@ -1,0 +1,121 @@
+1 -  AbInitioTest: STEP 1: CREATES REFERENCE ATMOSPHERIC PROFILE CORRESTONDING TO ATMOSPHERIC CONDITIONS AT THE GROUND:
+1 -  AbInitioTest: Atmosphere Type: TROPICAL
+1 -  AbInitioTest: Site Altitude: 4100 m above sea level
+1 -  AbInitioTest: Ground Temperature: 268.15 K
+1 -  AbInitioTest: Ground Pressure: 623.0 mb
+1 -  AbInitioTest: Relative Humidity at ground level: 11.3 % 
+1 -  AbInitioTest: Water vapor scale height: 2.2 km
+1 -  AbInitioTest: Tropospheric Temperature lapse rate: -5.6 K/km
+1 -  AbInitioTest: Top of the atmosphere for calculations: 48 km
+1 -  AbInitioTest: Primary pressure step: 10 mb (please check the above reference)
+1 -  AbInitioTest: Pressure step factor: 1.2 (please check the above reference)
+1 -  AbInitioTest: First guess precipitable water vapor content: 0.85787 mm
+1 -  AbInitioTest:  
+1 -  AbInitioTest: STEP 2: CREATES SpectralGrid and RefractiveIndexProfile OBJECTS CONTAINING
+1 -  AbInitioTest:       3 WATER VAPOR RADIOMETER CHANNELS + 1 ASTRONOMICAL BAND       
+1 -  AbInitioTest:         (Negative frequency resolutions are used for image side bands)    
+1 -  AbInitioTest: Spectral Window 0 Central Frequency: 182.11 GHz,  Freq. Resolution: 40 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 1 Central Frequency: 184.51 GHz,  Freq. Resolution: -40 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 2 Central Frequency: 179.11 GHz,  Freq. Resolution: 90 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 3 Central Frequency: 187.51 GHz,  Freq. Resolution: -90 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 4 Central Frequency: 175.51 GHz,  Freq. Resolution: 100 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 5 Central Frequency: 191.11 GHz,  Freq. Resolution: -100 MHz,  Num. of channels: 11
+1 -  AbInitioTest: Spectral Window 6 Central Frequency: 467.75 GHz,  Freq. Resolution: 50 MHz,  Num. of channels: 31
+1 -  AbInitioTest: Spectral windows associations:    
+1 -  AbInitioTest: Spectral Window 0 associated to spectral window: 1 (double band)
+1 -  AbInitioTest: Spectral Window 1 associated to spectral window: 0 (double band)
+1 -  AbInitioTest: Spectral Window 2 associated to spectral window: 3 (double band)
+1 -  AbInitioTest: Spectral Window 3 associated to spectral window: 2 (double band)
+1 -  AbInitioTest: Spectral Window 4 associated to spectral window: 5 (double band)
+1 -  AbInitioTest: Spectral Window 5 associated to spectral window: 4 (double band)
+1 -  AbInitioTest: Spectral Window 6 associated to spectral window: 6 (single band)
+1 -  AbInitioTest:  
+1 -  AbInitioTest: STEP 4: CREATES SkyStatus object and associates a WaterVaporRadiometer to it 
+1 -  AbInitioTest:  
+1 -  AbInitioTest: WaterVaporRadiometer characteristics: 
+1 -  AbInitioTest: WVR Channel 0 SpectralGrid Id of Signal sideband: 0 / SpectralGrid Id of Image sideband: 1
+1 -  AbInitioTest:  Sky Coupling: 0.8 / Gain of Signal sideband: 50 %
+1 -  AbInitioTest: WVR Channel 1 SpectralGrid Id of Signal sideband: 2 / SpectralGrid Id of Image sideband: 3
+1 -  AbInitioTest:  Sky Coupling: 0.8 / Gain of Signal sideband: 50 %
+1 -  AbInitioTest: WVR Channel 2 SpectralGrid Id of Signal sideband: 4 / SpectralGrid Id of Image sideband: 5
+1 -  AbInitioTest:  Sky Coupling: 0.8 / Gain of Signal sideband: 50 %
+1 -  AbInitioTest:  
+1 -  AbInitioTest: STEP 5: Reads a block of real WVRMeasurements taken at Mauna Kea on March 3, 2002 (local code)
+1 -  AbInitioTest: Total number of WVR data: 15209
+1 -  AbInitioTest:  
+1 -  AbInitioTest: STEP 6: Performing Water Vapor Retrieval over 1 WVR measurements starting at 2 UT on March/3/2002 
+1 -  AbInitioTest: The average Sigma of this ensemble of fits is: 33.9698 K
+1 -  AbInitioTest: User Water Vapor Column: 0.663492 mm
+1 -  AbInitioTest:  
+1 -  AbInitioTest: STEP 7: RETRIEVES THE BEST SKY COUPLING OF THE WVR CHANNELS USING DATA 9300 TO 9305
+1 -  AbInitioTest: The best sky coupling is: 
+1 -  AbInitioTest: WVR Channel 0: 0.624463: 
+1 -  AbInitioTest: WVR Channel 1: 0.624463: 
+1 -  AbInitioTest: WVR Channel 2: 0.624463: 
+1 -  AbInitioTest: For which the AverageSigmaTskyFit over those measurements is: 0.326302 K
+1 -  AbInitioTest: User Water Vapor Column: 0.324033 mm
+1 -  AbInitioTest:
+1 -  AbInitioTest: STEP 8: DATA ANALYSIS USING THE NEW SKY COUPLING 
+1 -  AbInitioTest: Data point 9300 (UT time: 8.03314 hours on 2002, March 3)
+1 -  AbInitioTest: Measured and fitted Sky Tebb's (in K): 
+1 -  AbInitioTest:   Channel 0: 180.384  180.366
+1 -  AbInitioTest:   Channel 1: 130.113  130.059
+1 -  AbInitioTest:   Channel 2: 119.372  119.629
+1 -  AbInitioTest:   Retrieved Zenith Water Vapor Column: 0.324502 mm / Sigma Fit: 0.186447 K
+1 -  AbInitioTest: Alternative method: Retrieved Zenith Water Vapor Column: 0.324496 mm
+1 -  AbInitioTest: 
+1 -  AbInitioTest: STEP 9: ATMOSPHERE OBSERVABLES IN ASTRONOMICAL BAND (ID=6) CENTRAL FREQUENCY=467.75 GHz
+1 -  AbInitioTest: 
+1 -  AbInitioTest: Zenith water vapor column above Antenna 1: 0.324496 mm
+1 -  AbInitioTest: Air Mass for Antenna 1: 1
+1 -  AbInitioTest: AVERAGE TEBB=86.7645 K
+1 -  AbInitioTest: TEBB DERIVATIVE=0.141876 K/(micron H2O)
+1 -  AbInitioTest: AVERAGE WET OPACITY ALONG LINE OF SIGHT=0.266486 np
+1 -  AbInitioTest:        AVERAGE H2O Lines OPACITY ALONG LINE OF SIGHT=0.227612 np
+1 -  AbInitioTest:        AVERAGE H2O Cont. OPACITY ALONG LINE OF SIGHT=0.0388747 np
+1 -  AbInitioTest: AVERAGE DRY OPACITY ALONG LINE OF SIGHT=0.118028 np
+1 -  AbInitioTest:        AVERAGE O2  Lines OPACITY ALONG LINE OF SIGHT=0.0104408 np
+1 -  AbInitioTest:        AVERAGE Dry Cont. OPACITY ALONG LINE OF SIGHT=0.0353157 np
+1 -  AbInitioTest:        AVERAGE O3  Lines OPACITY ALONG LINE OF SIGHT=0.0720894 np
+1 -  AbInitioTest:        AVERAGE N2O Lines OPACITY ALONG LINE OF SIGHT=0.000109509 np
+1 -  AbInitioTest:        AVERAGE CO  Lines OPACITY ALONG LINE OF SIGHT=5.0188e-05 np
+1 -  AbInitioTest: AVERAGE H2O DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=783.542 microns
+1 -  AbInitioTest: AVERAGE H2O NON-DISPER PATHLENGTH ALONG LINE OF SIGHT=2302.09 microns
+1 -  AbInitioTest: AVERAGE H2O PATHLENGTH DERIVATIVE (ZENITH VALUE)=9.50899 microns/micron_H2O
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-6.98303 microns
+1 -  AbInitioTest:        AVERAGE O2  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-10.8454 microns
+1 -  AbInitioTest:        AVERAGE O3  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=3.77342 microns
+1 -  AbInitioTest:        AVERAGE N2O DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=0.130741 microns
+1 -  AbInitioTest:        AVERAGE CO  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-0.0291833 microns
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH Pr_DERIVATIVE  (ZENITH VALUE microns/mb)=-0.0176901 microns/mb
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH Temp_DERIVATIVE (ZENITH VALUE microns/K)=0.0245864 microns/K
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH ALONG LINE OF SIGHT=1.49023e+06 microns
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH Pr_DERIVATIVE  (ZENITH VALUE microns/mb)=2309.46 microns/mb
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH Temp_DERIVATIVE (ZENITH VALUE microns/K)=101.517 microns/K
+1 -  AbInitioTest: 
+1 -  AbInitioTest: Zenith water vapor column above Antenna 1: 0.5 mm
+1 -  AbInitioTest: Air Mass for Antenna 1: 2
+1 -  AbInitioTest: AVERAGE TEBB=169.42 K
+1 -  AbInitioTest: TEBB DERIVATIVE=0.150224 K/(micron H2O)
+1 -  AbInitioTest: AVERAGE WET OPACITY ALONG LINE OF SIGHT=0.821232 np
+1 -  AbInitioTest:        AVERAGE H2O Lines OPACITY ALONG LINE OF SIGHT=0.701432 np
+1 -  AbInitioTest:        AVERAGE H2O Cont. OPACITY ALONG LINE OF SIGHT=0.1198 np
+1 -  AbInitioTest: AVERAGE DRY OPACITY ALONG LINE OF SIGHT=0.236057 np
+1 -  AbInitioTest:        AVERAGE O2  Lines OPACITY ALONG LINE OF SIGHT=0.0208815 np
+1 -  AbInitioTest:        AVERAGE Dry Cont. OPACITY ALONG LINE OF SIGHT=0.0706314 np
+1 -  AbInitioTest:        AVERAGE O3  Lines OPACITY ALONG LINE OF SIGHT=0.144179 np
+1 -  AbInitioTest:        AVERAGE N2O Lines OPACITY ALONG LINE OF SIGHT=0.000219018 np
+1 -  AbInitioTest:        AVERAGE CO  Lines OPACITY ALONG LINE OF SIGHT=0.000100376 np
+1 -  AbInitioTest: AVERAGE H2O DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=2414.64 microns
+1 -  AbInitioTest: AVERAGE H2O NON-DISPER PATHLENGTH ALONG LINE OF SIGHT=7094.35 microns
+1 -  AbInitioTest: AVERAGE H2O PATHLENGTH DERIVATIVE (ZENITH VALUE)=9.50899 microns/micron_H2O
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-13.9661 microns
+1 -  AbInitioTest:        AVERAGE O2  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-21.6909 microns
+1 -  AbInitioTest:        AVERAGE O3  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=7.54684 microns
+1 -  AbInitioTest:        AVERAGE N2O DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=0.261481 microns
+1 -  AbInitioTest:        AVERAGE CO  DISPERSIVE PATHLENGTH ALONG LINE OF SIGHT=-0.0583666 microns
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH Pr_DERIVATIVE  (ZENITH VALUE microns/mb)=-0.0176901 microns/mb
+1 -  AbInitioTest: AVERAGE DRY DISPERSIVE PATHLENGTH Temp_DERIVATIVE (ZENITH VALUE microns/K)=0.0245864 microns/K
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH ALONG LINE OF SIGHT=2.98047e+06 microns
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH Pr_DERIVATIVE  (ZENITH VALUE microns/mb)=2309.46 microns/mb
+1 -  AbInitioTest: AVERAGE DRY NON-DISPER PATHLENGTH Temp_DERIVATIVE (ZENITH VALUE microns/K)=101.517 microns/K

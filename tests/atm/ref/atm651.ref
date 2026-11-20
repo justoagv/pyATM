@@ -1,0 +1,19 @@
+1 - BASIC ATMOSPHERIC PARAMETERS TO GENERATE REFERENCE ATMOSPHERIC PROFILE
+1 - Ground temperature T:          269.0 K 
+1 - Ground pressure P:             55450 Pa 
+1 - Relative humidity rh:          7 percent 
+1 - Scale height h0:               2000 m 
+1 - Pressure step dp:              10 mbar 
+1 - Altitude alti:                 5059 m 
+1 - Altitude top atm profile atmh: 48000 m 
+1 - Pressure step factordp1:       1.20 
+1 - Tropospherique lapse rate:     -5.6 K/km 
+1 - Number of layers :27
+1 - First guess precipitable water vapor content: 0.514038 mm
+1 - -----------------------------------------------
+1 - Spectral Window 0 Reference Frequency: 650.75 GHz,  Reference Channel: 751 Freq. Resolution: 2 MHz,  LO frequency: 650.75 GHz,  Num. of channels: 1500
+1 -  6.49248e+11 6.52246e+11
+1 - -----------------------------------------------
+1 - Create SkyStatus object
+1 - 
+1 - Transmission from 6.49248e+11Ghz to 6.52246e+11Ghz stored in file atm651.dat

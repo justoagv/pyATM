@@ -1,0 +1,10 @@
+1 - creating ApexATMWrapper for Radiometer
+1 - setupRadiometerSpectralSetup for radiometer
+1 - setting sky coupling
+1 - calculateWVR
+1 - Sigma Fit = 0.410401 K
+1 - calculated water from ALMA ATM: 1.18088
+1 - creating ApexATMWrapper for astro bands
+1 - setupAstroSpectralSetup for astro bands
+1 - calculateWaterFromScalarAstro
+1 - calculated water from ALMA ATM: 0.531804

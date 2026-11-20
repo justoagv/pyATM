@@ -1,0 +1,87 @@
+1 -  RefractiveIndexProfileTest: BASIC ATMOSPHERIC PARAMETERS TO GENERATE REFERENCE ATMOSPHERIC PROFILE
+1 -   
+1 -  RefractiveIndexProfileTest: Ground temperature T:         270 K
+1 -  RefractiveIndexProfileTest: Ground pressure P:            560 mb
+1 -  RefractiveIndexProfileTest: Relative humidity rh:         20 %
+1 -  RefractiveIndexProfileTest: Scale height h0:              2 km
+1 -  RefractiveIndexProfileTest: Pressure step dp:             5 mb
+1 -  RefractiveIndexProfileTest: Altitude alti:                5000 m
+1 -  RefractiveIndexProfileTest: Attitude top atm profile atmh:48 km
+1 -  RefractiveIndexProfileTest: Pressure step factordp1:      1.1 
+1 -  RefractiveIndexProfileTest: Tropospherique lapse rate:    -5.6 K/km
+1 -  RefractiveIndexProfileTest: Atmospheric type:             TROPICAL
+1 -  RefractiveIndexProfileTest:   
+1 -  RefractiveIndexProfileTest:   
+1 -  RefractiveIndexProfileTest: Object myProfile built with the AtmProfile CONSTRUCTOR and the above entries
+1 -  RefractiveIndexProfileTest:   
+1 -  RefractiveIndexProfileTest: Number of layers returned:  35
+1 -  RefractiveIndexProfileTest: Layer parameters:  
+1 -  RefractiveIndexProfileTest:  P: 557.494 mb T: 269.8 K Thickness: 71.3989 m WaterVapor: 0.000776051 kg m-3 WaterVapor: 2.59675e+22 m-3 CO: 1.94603e+18 m-3 O3: 3.66464e+17 m-3 N2O: 4.77952e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 552.306 mb T: 269.384 K Thickness: 77.3618 m WaterVapor: 0.00074772 kg m-3 WaterVapor: 2.50195e+22 m-3 CO: 1.93099e+18 m-3 O3: 3.65269e+17 m-3 N2O: 4.74365e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 546.728 mb T: 268.932 K Thickness: 83.8794 m WaterVapor: 0.000718179 kg m-3 WaterVapor: 2.40311e+22 m-3 CO: 1.91456e+18 m-3 O3: 3.6397e+17 m-3 N2O: 4.70499e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 540.732 mb T: 268.442 K Thickness: 91.0134 m WaterVapor: 0.000687454 kg m-3 WaterVapor: 2.3003e+22 m-3 CO: 1.89657e+18 m-3 O3: 3.62559e+17 m-3 N2O: 4.66332e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 534.286 mb T: 267.911 K Thickness: 98.8347 m WaterVapor: 0.000655588 kg m-3 WaterVapor: 2.19367e+22 m-3 CO: 1.87686e+18 m-3 O3: 3.61024e+17 m-3 N2O: 4.61838e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 527.357 mb T: 267.333 K Thickness: 107.424 m WaterVapor: 0.00062264 kg m-3 WaterVapor: 2.08342e+22 m-3 CO: 1.85525e+18 m-3 O3: 3.59353e+17 m-3 N2O: 4.56993e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 519.907 mb T: 266.705 K Thickness: 116.876 m WaterVapor: 0.000588686 kg m-3 WaterVapor: 1.96981e+22 m-3 CO: 1.83152e+18 m-3 O3: 3.57531e+17 m-3 N2O: 4.51766e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 511.899 mb T: 266.022 K Thickness: 127.299 m WaterVapor: 0.000553825 kg m-3 WaterVapor: 1.85316e+22 m-3 CO: 1.80544e+18 m-3 O3: 3.55544e+17 m-3 N2O: 4.46126e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 503.29 mb T: 265.276 K Thickness: 138.821 m WaterVapor: 0.000518178 kg m-3 WaterVapor: 1.73388e+22 m-3 CO: 1.77675e+18 m-3 O3: 3.53373e+17 m-3 N2O: 4.40039e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 494.034 mb T: 264.463 K Thickness: 151.589 m WaterVapor: 0.00048189 kg m-3 WaterVapor: 1.61246e+22 m-3 CO: 1.74514e+18 m-3 O3: 3.50998e+17 m-3 N2O: 4.33468e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 484.085 mb T: 263.575 K Thickness: 165.782 m WaterVapor: 0.000445133 kg m-3 WaterVapor: 1.48947e+22 m-3 CO: 1.70977e+18 m-3 O3: 3.48369e+17 m-3 N2O: 4.26351e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 473.388 mb T: 262.602 K Thickness: 181.611 m WaterVapor: 0.000408105 kg m-3 WaterVapor: 1.36557e+22 m-3 CO: 1.67092e+18 m-3 O3: 3.45494e+17 m-3 N2O: 4.18671e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 461.889 mb T: 261.535 K Thickness: 199.329 m WaterVapor: 0.000371033 kg m-3 WaterVapor: 1.24152e+22 m-3 CO: 1.62825e+18 m-3 O3: 3.4235e+17 m-3 N2O: 4.10381e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 449.526 mb T: 260.363 K Thickness: 219.246 m WaterVapor: 0.000334169 kg m-3 WaterVapor: 1.11817e+22 m-3 CO: 1.58134e+18 m-3 O3: 3.38907e+17 m-3 N2O: 4.01433e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 436.235 mb T: 259.073 K Thickness: 241.743 m WaterVapor: 0.000297793 kg m-3 WaterVapor: 9.96449e+21 m-3 CO: 1.52973e+18 m-3 O3: 3.3513e+17 m-3 N2O: 3.91773e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 421.946 mb T: 257.647 K Thickness: 267.291 m WaterVapor: 0.000262209 kg m-3 WaterVapor: 8.7738e+21 m-3 CO: 1.47418e+18 m-3 O3: 3.29406e+17 m-3 N2O: 3.81526e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 406.584 mb T: 256.069 K Thickness: 296.488 m WaterVapor: 0.000227738 kg m-3 WaterVapor: 7.62037e+21 m-3 CO: 1.41216e+18 m-3 O3: 3.24088e+17 m-3 N2O: 3.70359e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 390.068 mb T: 254.314 K Thickness: 330.099 m WaterVapor: 0.000194717 kg m-3 WaterVapor: 6.51546e+21 m-3 CO: 1.34231e+18 m-3 O3: 3.19958e+17 m-3 N2O: 3.581e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 372.31 mb T: 252.356 K Thickness: 369.119 m WaterVapor: 0.000163489 kg m-3 WaterVapor: 5.47052e+21 m-3 CO: 1.26165e+18 m-3 O3: 3.18201e+17 m-3 N2O: 3.44554e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 353.217 mb T: 250.161 K Thickness: 414.876 m WaterVapor: 0.00013439 kg m-3 WaterVapor: 4.49684e+21 m-3 CO: 1.17115e+18 m-3 O3: 3.18165e+17 m-3 N2O: 3.29628e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 332.688 mb T: 247.686 K Thickness: 469.178 m WaterVapor: 0.000107741 kg m-3 WaterVapor: 3.60514e+21 m-3 CO: 1.07418e+18 m-3 O3: 3.18143e+17 m-3 N2O: 3.13314e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 310.612 mb T: 244.875 K Thickness: 534.562 m WaterVapor: 8.38305e-05 kg m-3 WaterVapor: 2.80506e+21 m-3 CO: 9.70537e+17 m-3 O3: 3.15625e+17 m-3 N2O: 2.95806e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 286.87 mb T: 241.657 K Thickness: 614.706 m WaterVapor: 6.28959e-05 kg m-3 WaterVapor: 2.10457e+21 m-3 CO: 8.60299e+17 m-3 O3: 3.19078e+17 m-3 N2O: 2.75911e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 261.335 mb T: 237.934 K Thickness: 715.17 m WaterVapor: 4.51058e-05 kg m-3 WaterVapor: 1.50929e+21 m-3 CO: 7.43508e+17 m-3 O3: 3.29896e+17 m-3 N2O: 2.5323e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 233.863 mb T: 233.566 K Thickness: 844.81 m WaterVapor: 3.05394e-05 kg m-3 WaterVapor: 1.02188e+21 m-3 CO: 6.17079e+17 m-3 O3: 3.42454e+17 m-3 N2O: 2.2852e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 204.297 mb T: 228.348 K Thickness: 1018.71 m WaterVapor: 1.9166e-05 kg m-3 WaterVapor: 6.41315e+20 m-3 CO: 4.68179e+17 m-3 O3: 3.60345e+17 m-3 N2O: 2.00703e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 172.453 mb T: 221.954 K Thickness: 1264.99 m WaterVapor: 1.08288e-05 kg m-3 WaterVapor: 3.62345e+20 m-3 CO: 3.15199e+17 m-3 O3: 3.64367e+17 m-3 N2O: 1.71233e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 145.726 mb T: 211.506 K Thickness: 948.989 m WaterVapor: 6.22589e-06 kg m-3 WaterVapor: 2.08325e+20 m-3 CO: 2.08753e+17 m-3 O3: 3.80317e+17 m-3 N2O: 1.45248e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 114.088 mb T: 199.85 K Thickness: 2000 m WaterVapor: 2.97865e-06 kg m-3 WaterVapor: 9.96688e+19 m-3 CO: 1.1852e+17 m-3 O3: 3.93168e+17 m-3 N2O: 1.14189e+18 m-3
+1 -  RefractiveIndexProfileTest:  P: 81.0467 mb T: 198.6 K Thickness: 3750 m WaterVapor: 7.07491e-07 kg m-3 WaterVapor: 2.36734e+19 m-3 CO: 3.64027e+16 m-3 O3: 1.48696e+18 m-3 N2O: 5.96361e+17 m-3
+1 -  RefractiveIndexProfileTest:  P: 50.4577 mb T: 209.05 K Thickness: 4000 m WaterVapor: 1.01924e-07 kg m-3 WaterVapor: 3.41048e+18 m-3 CO: 1.54187e+16 m-3 O3: 2.55661e+18 m-3 N2O: 2.3429e+17 m-3
+1 -  RefractiveIndexProfileTest:  P: 27.4549 mb T: 220.5 K Thickness: 4000 m WaterVapor: 1.37939e-08 kg m-3 WaterVapor: 4.61558e+17 m-3 CO: 1.03395e+16 m-3 O3: 3.89957e+18 m-3 N2O: 1.009e+17 m-3
+1 -  RefractiveIndexProfileTest:  P: 15.0592 mb T: 229.3 K Thickness: 4250 m WaterVapor: 1.75369e-09 kg m-3 WaterVapor: 5.86805e+16 m-3 CO: 6.88407e+15 m-3 O3: 2.69289e+18 m-3 N2O: 1.06705e+17 m-3
+1 -  RefractiveIndexProfileTest:  P: 8.2977 mb T: 238.2 K Thickness: 6000 m WaterVapor: 1.3523e-10 kg m-3 WaterVapor: 4.52496e+15 m-3 CO: 3.92089e+15 m-3 O3: 1.90711e+18 m-3 N2O: 1.82245e+16 m-3
+1 -  RefractiveIndexProfileTest:  P: 4.09633 mb T: 249.3 K Thickness: 6000 m WaterVapor: 1.3523e-10 kg m-3 WaterVapor: 4.52496e+15 m-3 CO: 2.22507e+15 m-3 O3: 6.29932e+17 m-3 N2O: 2.85798e+15 m-3
+1 -  RefractiveIndexProfileTest: First guess precipitable water vapor content: 1.57744mm
+1 -  RefractiveIndexProfileTest: (This value is estimated from the relative humidity at ground level and the water vapor scale height)
+1 -  RefractiveIndexProfileTest:   
+1 -  RefractiveIndexProfileTest:   
+1 -  RefractiveIndexProfileTest: Example 1: Absorption profile for a single frequency: 850 GHz
+1 -   
+1 -  RefractiveIndexProfileTest: Absorption Profile built from RefractiveIndexProfile CONSTRUCTOR. Summary of results:
+1 - 
+1 -  RefractiveIndexProfileTest: Total Dry Opacity at      850 GHz for 1.0 air mass: 0.11319
+1 - 
+1 -  RefractiveIndexProfileTest: Total Dry Cont Opacity at      850 GHz for 1.0 air mass: 0.0867847
+1 -  RefractiveIndexProfileTest: Total O2 lines Opacity at      850 GHz for 1.0 air mass: 0.0119997
+1 -  RefractiveIndexProfileTest: Total O3 lines Opacity at      850 GHz for 1.0 air mass: 0.0137836
+1 -  RefractiveIndexProfileTest: Total CO lines Opacity at      850 GHz for 1.0 air mass: 1.5218e-06
+1 -  RefractiveIndexProfileTest: Total N2O lines Opacity at      850 GHz for 1.0 air mass: 0.000597735
+1 - 
+1 -  RefractiveIndexProfileTest: Total Wet Opacity at      850 GHz for 1.0 air mass: 1.72635
+1 - 
+1 -  RefractiveIndexProfileTest: Total H2O lines Opacity at      850 GHz for 1.0 air mass: 1.16405
+1 -  RefractiveIndexProfileTest: Total H2O Cont Opacity at      850 GHz for 1.0 air mass: 0.562296
+1 - 
+1 - 
+1 -  RefractiveIndexProfileTest: Total Dispersive PathLength at 850 GHz for 1.0 air mass: 0.00182971 meters 
+1 -  RefractiveIndexProfileTest: Total Non-Dispersive PathLength at 850 GHz for 1.0 air mass: 0.011067 meters 
+1 -  RefractiveIndexProfileTest: Ratio Dispersive/Non-Dispersive PathLength at 850 GHz for 1.0 air mass: 0.16533
+1 -  RefractiveIndexProfileTest: Total Dry PathLength at 850 GHz for 1.0 air mass: 1.34549 meters 
+1 -  RefractiveIndexProfileTest: Total O2 lines PathLength at 850 GHz for 1.0 air mass: -4.28304e-05 meters 
+1 -  RefractiveIndexProfileTest: Total O3 lines PathLength at 850 GHz for 1.0 air mass: -5.26949e-06 meters 
+1 -  RefractiveIndexProfileTest: Total CO lines PathLength at 850 GHz for 1.0 air mass: 8.37854e-09 meters 
+1 -  RefractiveIndexProfileTest: Total N2O lines PathLength at 850 GHz for 1.0 air mass: 1.52582e-07 meters 
+1 - 
+1 - 
+1 -  RefractiveIndexProfileTest: (your actual water vapor column is 1.57744 mm; 1.57744 mm
+1 - 
